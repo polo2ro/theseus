@@ -30,7 +30,7 @@
 
     var connect          = require('connect'),
         crypto           = require('crypto'),
-        fondue           = require('fondue'),
+        fondue           = require('fondue-es6'),
         fs               = require('fs'),
         http             = require('http'),
         proxyMiddleware  = require('./middleware-proxy'),

@@ -55,7 +55,7 @@ define(function (require, exports, module) {
     var _nodeExceptionCounts = {};
     var $exports = $(exports);
 
-    var REQUIRED_FONDUE_VERSION = JSON.parse(require("text!../package.json")).dependencies.fondue;
+    var REQUIRED_FONDUE_VERSION = JSON.parse(require("text!../package.json")).dependencies['fondue-es6'];
 
     function Connection() {
         this.socket = new WebSocket("ws://localhost:8888/");
